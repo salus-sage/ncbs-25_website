@@ -18,10 +18,27 @@ color: #F4F3E9;
 .navbar-header-link-color
 {
 color:#FFFFFC;
-
 }
 .navbar-header-link-hover-color
 {
 color:#FFF;
 }
 
+.dropdown-box-color 
+{
+background-color:#9A9777;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
+{
+color: #fff;
+    background-color: #9A9777;
+}
+.navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
+{
+color: #FFFFFC;
+}
+.logo-responsive
+{
+max-width: 100%;
+}
