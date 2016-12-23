@@ -5,7 +5,10 @@ width:100%;
 
 }
 
-
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header
+{
+	margin-left: 0px;
+}
 .navbar-header-bg_col
 {
 background-color: rgba(102, 102, 102, 0.2);
