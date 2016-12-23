@@ -9,6 +9,7 @@ width:100%;
 .navbar-header-bg_col
 {
 background-color:#CDCCB9;
+margin-bottom: 0px;
 }
 .navbar-header-border-color
 {
@@ -66,3 +67,18 @@ background-repeat: no-repeat;
 	padding:0px;
 }
 
+.body-scroll-padding
+{
+	overflow-x: hidden;
+	padding: 0px;
+}
+.navbar-inverse {
+border-color:#CDCCB9;
+   }
+   .navbar-inverse .navbar-toggle {
+    border-color: #CDCCB9;
+}
+.panel-background
+{
+	background-color: transparent;
+}
