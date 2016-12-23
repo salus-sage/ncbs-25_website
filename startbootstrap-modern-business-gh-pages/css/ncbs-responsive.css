@@ -8,8 +8,9 @@ width:100%;
 
 .navbar-header-bg_col
 {
-background-color:#CDCCB9;
+background-color: rgba(102, 102, 102, 0.2);
 margin-bottom: 0px;
+border-color:#ffffff;
 }
 .navbar-header-border-color
 {
@@ -45,7 +46,7 @@ max-width: 100%;
 
 .home-hero-bg
 {
-background-image:url(../bg_img.jpg);
+background-image:url(../images/bg_img.jpg);
 background-repeat: no-repeat;
     background-size: cover;
 }
@@ -72,7 +73,7 @@ background-repeat: no-repeat;
 	overflow-x: hidden;
 	padding: 0px;
 }
-.navbar-inverse {
+.navbar-inverse {border-color:;
 border-color:#CDCCB9;
    }
    .navbar-inverse .navbar-toggle {
@@ -81,4 +82,10 @@ border-color:#CDCCB9;
 .panel-background
 {
 	background-color: transparent;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ffffff;
+}
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #ffffff; 
 }
