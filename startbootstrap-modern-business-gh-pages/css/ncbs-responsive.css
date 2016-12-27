@@ -64,8 +64,7 @@ background-blend-mode: multiply;
 	margin-top: 10px;
     background-color: rgba(102, 102, 102, 0.2);
     font-size: 16px;
-    line-height: 19px;
-    font-family: roboto;
+        font-family: roboto;
     color: #f2f2f2;
     padding: 15px;
     border-radius: 0px;
@@ -108,5 +107,40 @@ background-color:#357774;
 color:#FFFFFF;
 font-weight:300;
 }
+.body-background{
+  background-color:#f4f3e9;  
+}
 
-
+.dropdown-menu-style{
+    background-color:rgba(102,102,102,0.66);
+    color:white; 
+    border-radius:0px; 
+    margin-top:14px;
+    font-size:15px;
+}
+.about-center-block{
+    margin-left: 8%;
+        width: 100%;
+    margin-top: 5%;
+}
+.about-container{
+    margin-top: 30px;
+}
+.about-text-style
+{
+    margin-top:-15px; 
+    font-family: roboto;
+}
+.footer-content-text
+{
+    cursor: pointer;     
+    color: #333726;
+    margin-top:2px; 
+    font-family: roboto; 
+    color: #333726
+}
+.footer-text-style
+{
+    margin-top:80px;
+    font-family: roboto;
+}
