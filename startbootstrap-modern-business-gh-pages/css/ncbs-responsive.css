@@ -115,16 +115,6 @@ font-weight:300;
   background-color:#f4f3e9;  
 }
 
-
-
-*
-{
-    box-sizing: border-box;
-    
-	
-    padding-left: inherit;
-}
-
 .dropdown-menu-style{
     background-color:rgba(102,102,102,0.66);
     color:white; 
