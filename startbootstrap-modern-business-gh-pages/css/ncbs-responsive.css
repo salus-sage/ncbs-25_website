@@ -58,14 +58,14 @@ background-image:url(../images/bg_img.jpg);
 background-repeat: no-repeat;
     background-size: cover;
 	background-color: rgba(102,102,102,0.2);
-background-blend-mode: multiply;
+/*background-blend-mode: multiply;*/
 }
 .home-hero-lefttext-container
 {
 	margin-top: 10px;
     background-color: rgba(102, 102, 102, 0.2);
     font-size: 16px;
-        font-family: roboto;
+    font-family: 'Roboto', sans-serif;
     color: #f2f2f2;
     padding: 15px;
     border-radius: 0px;
@@ -81,10 +81,12 @@ background-blend-mode: multiply;
     padding:8px;
 }
 
-.body-scroll-padding
+body.homepage
 {
 	overflow-x: hidden;
 	padding: 0px;
+     background-color:#f4f3e9;  
+     font-family: 'Roboto', sans-serif;
 }
 
 .navbar-inverse {
@@ -116,9 +118,6 @@ background-color:#357774;
 color:#FFFFFF;
 font-weight:300;
 }
-.body-background{
-  background-color:#f4f3e9;  
-}
 
 
 .dropdown-menu-style{
@@ -139,20 +138,22 @@ font-weight:300;
 .about-text-style
 {
     margin-top:-15px; 
-    font-family: roboto;
+ font-family: 'Roboto', sans-serif;
 }
 .footer-content-text
 {
     cursor: pointer;     
     color: #333726;
     margin-top:2px; 
-    font-family: roboto; 
+    font-family: 'Roboto', sans-serif;
     color: #333726
 }
 .footer-text-style
 {
     margin-top:80px;
-    font-family: roboto;
+   font-family: 'Roboto', sans-serif;
+   padding: 15px;
+     border-top: solid 1px #ffffff;
 }
 
 .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
