@@ -1,5 +1,18 @@
+@media (max-width: 767px)
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #FFFFFF;
+}
 
+body{
+    overflow-x: hidden;
+    padding: 0px;
+    background-color:#f4f3e9;  
+    font-family: 'Roboto', sans-serif;
+}
 
+.navbar-inverse {
+    border-radius:0px;
+}
 
 .navbar-header-bg_col
 {
@@ -14,14 +27,17 @@ background-blend-mode: multiply;
 margin-bottom: 0px;
 border-color:transparent;
 }
+
 .navbar-header-border-color
 {
 color: #F4F3E9;
 }
+
 .navbar-header-link-color
 {
 color:#FFFFFF;
 }
+
 .navbar-header-link-hover-color
 {
 color:#FFF;
@@ -35,63 +51,34 @@ background-color:transparent;
 .navbar-inverse .navbar-nav>li>a {
 color:#FFFFFF;
 }
+
 .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
 {
 color: #fff;
     background-color:rgba(102,102,102,0.66);;
 }
+
 .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
 {
 color: #FFFFFC;
 }
 
-
-
-.home-hero-bg
-{
-background: linear-gradient(215deg, #aed7d3 10%, rgba(99,133,133,1) 100%);
-}
-.home-hero-lefttext-container
-{
-	margin-top: 10px;
-    background-color: rgba(102, 102, 102, 0.2);
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: #f2f2f2;
-    padding: 15px;
-    border-radius: 0px;
-	
-}
-
-.home-hero-lefttext-removepadding
-{
-	padding:0px;
-}
 .theme-dropdown-icon {
     width:30px;
     padding:8px;
 }
 
-body{
-	overflow-x: hidden;
-	padding: 0px;
-     background-color:#f4f3e9;  
-     font-family: 'Roboto', sans-serif;
-}
 
-.navbar-inverse {
-border-radius:0px;
-   }
-   .navbar-inverse .navbar-toggle {
+.navbar-inverse .navbar-toggle {
     border-color: #CDCCB9;
 }
-.panel-background
-{
-	background-color: transparent;
-}
+
+
+
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: #ffffff;
 }
+
 .dropdown-menu>li>a {
 font-weight:300;
 color:#FFFFFF;
@@ -119,38 +106,50 @@ font-size:16px;
     margin-top:14px;
     font-size:15px;
 }
+
+.home-hero-bg
+{
+background: linear-gradient(215deg, #aed7d3 10%, rgba(99,133,133,1) 100%);
+}
+
+.home-hero-lefttext-container
+{
+	margin-top: 10px;
+    background-color: rgba(102, 102, 102, 0.2);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    padding: 15px;
+    border-radius: 0px;
+	
+}
+
+.home-hero-lefttext-removepadding
+{
+	padding:0px;
+}
+
+
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.panel-background{
+    background-color: transparent;
+}
+
 .about-center-block{
     margin-left: 1%;
         width: 100%;
     margin-top: 5%;
 }
-.about-container{
-    margin-top: 30px;
-}
+
 .about-text-style
 {
     margin-top:-15px; 
  font-family: 'Roboto', sans-serif;
-}
-.footer-content-text
-{
-    cursor: pointer;     
-    color: #333726;
-    margin-top:2px; 
-    font-family: 'Roboto', sans-serif;
-    color: #333726
-}
-.footer-text-style
-{
-    margin-top:80px;
-   font-family: 'Roboto', sans-serif;
-   padding: 15px;
-     border-top: solid 1px #ffffff;
-}
-
-.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
-    margin-right: 0px;
-    margin-left: 0px;
 }
 
 .videoWrapper {
@@ -159,6 +158,7 @@ font-size:16px;
 	padding-top: 25px;
 	height: 0;
 }
+
 .videoWrapper iframe {
 	position: absolute;
 	top: 0;
@@ -168,14 +168,33 @@ font-size:16px;
 }
 
 
-@media (max-width: 767px)
-.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #FFFFFF;
+
+.theme-about-heading {
+    margin-top: 30px;
 }
+
 .theme-about-video {
     /*margin-left: 8%;*/
     width: 100%;
     margin-top: 5%;
     margin-right:15px;
+    width:100%;
+    height:200px;
 }
 
+.footer-content-text
+{
+    cursor: pointer;     
+    color: #333726;
+    margin-top:2px; 
+    font-family: 'Roboto', sans-serif;
+    color: #333726
+}
+
+.footer-text-style
+{
+    margin-top:80px;
+   font-family: 'Roboto', sans-serif;
+   padding: 15px;
+     border-top: solid 1px #ffffff;
+}
