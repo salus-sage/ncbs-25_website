@@ -49,11 +49,7 @@ color: #FFFFFC;
 
 .home-hero-bg
 {
-background-image:url(../images/bg_img.jpg);
-background-repeat: no-repeat;
-    background-size: cover;
-	background-color: rgba(102,102,102,0.2);
-/*background-blend-mode: multiply;*/
+background: linear-gradient(215deg, #aed7d3 10%, rgba(99,133,133,1) 100%);
 }
 .home-hero-lefttext-container
 {
@@ -76,8 +72,7 @@ background-repeat: no-repeat;
     padding:8px;
 }
 
-body.homepage
-{
+body{
 	overflow-x: hidden;
 	padding: 0px;
      background-color:#f4f3e9;  
