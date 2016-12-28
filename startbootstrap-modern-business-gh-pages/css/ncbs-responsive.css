@@ -1,9 +1,4 @@
 
-.navbar-header-static-top
-{
-width:100%;
-
-}
 
 
 .navbar-header-bg_col
@@ -58,7 +53,7 @@ background-image:url(../images/bg_img.jpg);
 background-repeat: no-repeat;
     background-size: cover;
 	background-color: rgba(102,102,102,0.2);
-background-blend-mode: multiply;
+/*background-blend-mode: multiply;*/
 }
 .home-hero-lefttext-container
 {
@@ -114,7 +109,9 @@ color:#FFFFFF;
 
 background-color:#357774;
 color:#FFFFFF;
-font-weight:300;
+font-weight:600;
+font-size:16px;
+
 }
 .body-background{
   background-color:#f4f3e9;  
@@ -174,4 +171,8 @@ font-weight:300;
 	left: 0;
 	width: 100%;
 	height: 100%;
+}
+@media (max-width: 767px)
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #FFFFFF;
 }
