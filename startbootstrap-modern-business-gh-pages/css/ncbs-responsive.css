@@ -44,7 +44,10 @@ color: #fff;
 {
 color: #FFFFFC;
 }
-
+.logo-responsive
+{
+padding:5px;
+}
 
 
 .home-hero-bg
@@ -73,10 +76,19 @@ background-repeat: no-repeat;
 }
 .theme-dropdown-icon {
     width:30px;
-    padding:8px;
+    padding:4px;
+	}
+	
+	
+.theme-dropdown-icon:hover{
+padding:1px;
+background-position: 0 -25px;
 }
 
-body.homepage
+
+
+
+body
 {
 	overflow-x: hidden;
 	padding: 0px;
@@ -86,6 +98,7 @@ body.homepage
 
 .navbar-inverse {
 border-radius:0px;
+font-size:16px;
    }
    .navbar-inverse .navbar-toggle {
     border-color: #CDCCB9;
@@ -105,6 +118,7 @@ color:#FFFFFF;
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     color: #FFFFFF;
+	font-size:16px;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu li a:hover{
