@@ -186,8 +186,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
 	
 }
 
-.home-hero-lefttext-removepadding{
+.panel-heading .home-hero-lefttext-removepadding{
 	padding:0px;
+    text-align:justify;
 }
 
 
@@ -215,7 +216,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 25.25%; /* 16:9 */
+	padding-bottom: 25.25%;/*16:9;*/  
 	padding-top: 25px;
 	height: 0;
 }
@@ -239,7 +240,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
     width: 100%;
     margin-top: 5%;
     margin-right:15px;
-    height:200px;
+    height:100%;
+}
+
+@media (max-width:893px){
+    .theme-about-video{
+        height:100px;
+    }
 }
 /*CSS for footer*/
 
@@ -267,11 +274,18 @@ footer
 }
 
 
-@media (max-device-width: 1024px)
+@media (max-width: 1000px)
 {
-    .insect-image
+    .panel-background .panel-body
     {
-            margin-left: -124px;
-    margin-top: 170px;
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 1036px)
+{
+    .panel-background .panel-body
+    {
+        margin-top: 10%;
     }
 }
