@@ -1,13 +1,16 @@
-@media (max-width: 767px)
-.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #FFFFFF;
-}
 
+/*CSS for body*/
 body{
     overflow-x: hidden;
     padding: 0px;
     background-color:#f4f3e9;  
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+/*CSS for header*/
+@media (max-width: 767px)
+.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #FFFFFF;
 }
 
 .navbar-inverse {
@@ -52,17 +55,73 @@ body{
     background-color:rgba(102,102,102,0.66);;
 }
 
-.navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
-    color: #FFFFFC;
+
+.navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover
+{
+color: #FFFFFC;
+}
+.logo-responsive
+{
+padding:5px;
+}
+
+
+.home-hero-bg
+{
+background-image:url(../images/bg_img.jpg);
+background-repeat: no-repeat;
+    background-size: cover;
+	background-color: rgba(102,102,102,0.2);
+/*background-blend-mode: multiply;*/
+}
+.home-hero-lefttext-container
+{
+	margin-top: 10px;
+    background-color: rgba(102, 102, 102, 0.2);
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #f2f2f2;
+    padding: 15px;
+    border-radius: 0px;
+	
+
+
 }
 
 .theme-dropdown-icon {
     width:30px;
-    padding:8px;
+    padding:4px;
+	}
+	
+	
+.theme-dropdown-icon:hover{
+padding:1px;
+background-position: 0 -25px;
 }
 
 
+
+
+
+
+body
+{
+	overflow-x: hidden;
+	padding: 0px;
+     background-color:#f4f3e9;  
+     font-family: 'Roboto', sans-serif;
+}
+
+.navbar-inverse {
+border-radius:0px;
+font-size:16px;
+   }
+   
+   
+
 .navbar-inverse .navbar-toggle {
+
+
     border-color: #CDCCB9;
 }
 
@@ -80,6 +139,7 @@ body{
 
 .navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
     color: #FFFFFF;
+	font-size:16px;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu li a:hover{
@@ -100,8 +160,16 @@ body{
     font-size:15px;
 }
 
+/*CSS for home container*/
 .home-hero-bg{
     background: linear-gradient(215deg, #aed7d3 10%, rgba(99,133,133,1) 100%);
+    background: -moz-linear-gradient(276deg, #aed7d3 10%, rgba(99,133,133,1) 100%);  ff3.6+ /
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #aed7d3), color-stop(100%, rgba(99,133,133,1))); / safari4+,chrome /
+background: -webkit-linear-gradient(276deg, #aed7d3 10%, rgba(99,133,133,1) 100%); / safari5.1+,chrome10+ /
+background: -o-linear-gradient(276deg, #aed7d3 10%, rgba(99,133,133,1) 100%); / opera 11.10+ /
+background: -ms-linear-gradient(276deg, #aed7d3 10%, rgba(99,133,133,1) 100%); / ie10+ /
+background: linear-gradient(180deg, #aed7d3 10%, rgba(99,133,133,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', endColorstr='#638585',GradientType=0 ); / ie6-9 
 }
 
 .home-hero-lefttext-container{
@@ -129,6 +197,7 @@ body{
 .panel-background{
     background-color: transparent;
 }
+/*CSS for About block*/
 
 .about-center-block{
     margin-left: 1%;
@@ -170,6 +239,7 @@ body{
     width:100%;
     height:200px;
 }
+/*CSS for footer*/
 
 .footer-content-text
 {
@@ -187,3 +257,11 @@ body{
     padding: 15px;
     border-top: solid 1px #ffffff;
 }
+footer
+{
+
+    text-align: -webkit-center;
+
+}
+
+
