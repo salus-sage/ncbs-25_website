@@ -72,7 +72,7 @@ background-image:url(../images/bg_img.jpg);
 background-repeat: no-repeat;
     background-size: cover;
 	background-color: rgba(102,102,102,0.2);
-/*background-blend-mode: multiply;*/
+
 }
 .home-hero-lefttext-container
 {
@@ -150,7 +150,10 @@ font-size:16px;
     font-size:16px;
 
 }
-
+.navbar-inverse .navbar-nav .open .dropdown-menu li a:hover .theme-dropdown-icon{
+padding:1px;
+background-position: 0 -25px;
+}
 
 .dropdown-menu-style{
     background-color:rgba(102,102,102,0.66);
@@ -247,7 +250,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
     color: #333726;
     margin-top:2px; 
     font-family: 'Roboto', sans-serif;
-    color: #333726
+    color: #333726;
 }
 
 .footer-text-style
@@ -265,3 +268,11 @@ footer
 }
 
 
+@media (max-device-width: 1024px)
+{
+    .insect-image
+    {
+            margin-left: -124px;
+    margin-top: 170px;
+    }
+}
