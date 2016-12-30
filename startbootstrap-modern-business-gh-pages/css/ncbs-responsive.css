@@ -150,7 +150,10 @@ font-size:16px;
     font-size:16px;
 
 }
-
+.navbar-inverse .navbar-nav .open .dropdown-menu li a:hover .theme-dropdown-icon{
+padding:1px;
+background-position: 0 -25px;
+}
 
 .dropdown-menu-style{
     background-color:rgba(102,102,102,0.66);
