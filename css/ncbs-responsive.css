@@ -91,6 +91,7 @@ background-repeat: no-repeat;
 .theme-dropdown-icon {
     width:30px;
     padding:4px;
+    margin-right:5px;
 	}
 	
 	
@@ -274,18 +275,18 @@ footer
 }
 
 
-@media (max-width: 1000px)
+@media (min-width: 992px)
 {
-    .panel-background .panel-body
+    .theme-insect-image
     {
-        margin-top: 15%;
+        margin-top: 35%;
     }
 }
 
-@media (max-width: 1036px)
+@media (min-width: 1020px)
 {
-    .panel-background .panel-body
+    .theme-insect-image
     {
-        margin-top: 10%;
+        margin-top: 15%;
     }
 }
