@@ -42,9 +42,9 @@ body{
     color:#FFF;
 }
 
-.dropdown-box-color {
+/*.dropdown-box-color {
     background-color:transparent;
-}
+}*/
 
 .navbar-inverse .navbar-nav>li>a {
     color:#FFFFFF;
@@ -187,9 +187,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
 	
 }
 
-.panel-heading .home-hero-lefttext-removepadding{
+.home-hero-lefttext-removepadding h3 {
 	padding:0px;
-    text-align:justify;
+    text-align:center;
 }
 
 
