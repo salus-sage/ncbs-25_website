@@ -234,7 +234,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
 }
 /*CSS for About block*/
 #about {
-    width:60%;
+    /*width:60%;*/
+    padding:30px;
     color: rgba(17, 17, 17, 0.7);
     font-size:16px;
 }
@@ -262,7 +263,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
     color: #fff;
 }
 .ack-section .container {
-    width:60%;
+    /*width:60%;*/
+    padding: 30px;
 }
 
 /* Acknowledgements END */
