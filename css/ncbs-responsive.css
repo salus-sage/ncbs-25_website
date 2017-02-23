@@ -239,7 +239,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
     color: rgba(17, 17, 17, 0.7);
     font-size:16px;
 }
-
+#about h3 {
+    color: #1a837f;
+}
 .theme-about-video {
     /*margin-left: 8%;*/
     width: 100%;
@@ -249,6 +251,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
 
 #about blockquote {
     border-left: 5px solid #7de4e0;
+    color: #539794;
+}
+#about blockquote footer {
+    color: #539794;
 }
 
 @media (max-width:893px){
@@ -256,6 +262,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
         height:100px;
     }
 }
+
+/* Ephemera Section */
+#ephemera {
+    background-color: #7DE4E0;
+    padding:35px;
+    font-size:18px;
+    color:#fff;
+}
+#ephemera h3 {
+    color: #1a837f;
+}
+#ephemera-img-container {
+    padding:15px;
+}
+#ephemera-text-wrap {
+    padding:15px;
+    margin-top: 10%;
+}
+.captionEphImg {
+    padding:15px;
+    text-align: left;
+        color: #5f5f5f;
+        font-family: roboto;
+        font-size: 12px;
+}
+/* END Ephemera */
+
 
 /* Acknowledgements section*/
 .ack-section{
