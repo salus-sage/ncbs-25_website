@@ -9,6 +9,14 @@ body {
      text-align: justify;
 }
 
+/* Fonts */
+.headings-font{
+    font-family: 'Playfair Display SC', serif;
+}
+
+.ncbs-blockquotes{
+    font-family: 'Permanent Marker', cursive;
+}
 /* anchor links */
 a {
     color: #a65c21;
@@ -205,16 +213,7 @@ background: linear-gradient(180deg, #aed7d3 10%, rgba(99,133,133,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', endColorstr='#638585',GradientType=0 ); / ie6-9 */
 }
 
-.home-hero-lefttext-container{
-    margin-top: 10px;
-    background-color: rgba(102, 102, 102, 0.2);
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    color: #f2f2f2;
-    padding: 15px;
-    border-radius: 0px;
-    
-}
+
 
 
 .home-hero-lefttext-removepadding h3 {
@@ -238,10 +237,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
     padding:30px;
     color: rgba(17, 17, 17, 0.7);
     font-size:16px;
-}
-#about h3 {
     color: #1a837f;
 }
+
 .theme-about-video {
     /*margin-left: 8%;*/
     width: 100%;
@@ -279,6 +277,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
 #ephemera-text-wrap {
     padding:15px;
     margin-top: 10%;
+    color: #1a837f;
 }
 .captionEphImg {
     padding:15px;
@@ -288,7 +287,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aed7d3', end
         font-size: 12px;
 }
 /* END Ephemera */
-
+/* Peopleplex section start */
+#home-peopleplex {
+    background-color: #f4f3e9;
+    padding:35px;
+    font-size:18px;
+    color:#fff;
+}
+#home-peopleplex h3 {
+    color: #1a837f;
+}
+#home-peopleplex-img-container {
+    padding:15px;
+}
+#home-peopleplex-text-wrap {
+    padding:15px;
+    margin-top: 10%;
+    color: #1a837f;
+}
+/* Peopleplex section END */
 
 /* Acknowledgements section*/
 .ack-section{
